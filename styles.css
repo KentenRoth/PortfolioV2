@@ -68,7 +68,7 @@ button {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 1.6rem;
 }
@@ -185,6 +185,7 @@ li a {
 
 .projectsBackground {
     background: #c7eeff;
+    text-align: center;
 }
 
 .purpleTopImage img {
@@ -193,11 +194,17 @@ li a {
 }
 
 .purpleBottomImage img {
+    margin-top: -5px;
     width: 100%;
 }
 
 .projects {
     background: #e6d7ff;
+}
+.projectOne,
+.projectTwo,
+.projectThree {
+    padding: 10px;
 }
 /********** Media **********/
 
