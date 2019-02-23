@@ -183,8 +183,16 @@ li a {
 
 /********** Projects **********/
 
+.projectsBackground {
+    background: #c7eeff;
+}
+
 .purpleTopImage img {
     margin-bottom: -5px;
+    width: 100%;
+}
+
+.purpleBottomImage img {
     width: 100%;
 }
 
