@@ -11,6 +11,7 @@ html {
 body {
     background: #e1e1e1;
     color: #3d3d3d;
+    font-family: "EB Garamond", serif;
     font-size: 1.6rem;
 }
 
@@ -122,6 +123,7 @@ li a {
 }
 .box {
     color: #c7eeff;
+    font-family: "Merriweather Sans", sans-serif;
     justify-content: center;
 }
 .headerContent {
@@ -132,6 +134,7 @@ li a {
 }
 
 .headerPhrase {
+    font-family: "EB Garamond", serif;
     padding: 10px;
 }
 
@@ -149,6 +152,7 @@ li a {
 .aboutHeader,
 .projectsHeader,
 .contactHeader {
+    font-family: "Merriweather Sans", sans-serif;
     font-size: 20px;
     font-weight: 700;
     padding: 20px;
@@ -207,12 +211,16 @@ li a {
     padding: 10px;
 }
 
+.projectTitle {
+    font-family: "Merriweather Sans", sans-serif;
+}
+
 .projectImage {
     border-radius: 10px;
     margin: auto;
     background: #3d3d3d;
-    height: 400px;
-    width: 400px;
+    height: 350px;
+    width: 350px;
 }
 
 .projectIcons {
