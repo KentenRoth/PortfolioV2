@@ -147,7 +147,8 @@ li a {
 /********** About **********/
 
 .aboutHeader,
-.projectsHeader {
+.projectsHeader,
+.contactHeader {
     font-size: 20px;
     font-weight: 700;
     padding: 20px;
@@ -167,6 +168,7 @@ li a {
     font-size: 18px;
     line-height: 2rem;
     padding: 20px;
+    text-indent: 30px;
 }
 
 .skills {
@@ -201,10 +203,29 @@ li a {
 .projects {
     background: #e6d7ff;
 }
-.projectOne,
-.projectTwo,
-.projectThree {
+.project {
     padding: 10px;
+}
+
+.projectImage {
+    border-radius: 10px;
+    margin: auto;
+    background: #3d3d3d;
+    height: 400px;
+    width: 400px;
+}
+
+/********** Contact **********/
+
+.contact {
+    height: 600px;
+}
+
+/********** Footer **********/
+
+.footer {
+    background: #3d3d3d;
+    height: 200px;
 }
 /********** Media **********/
 
