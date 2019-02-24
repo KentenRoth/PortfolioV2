@@ -97,10 +97,17 @@ li {
 }
 
 li a {
+    border-bottom: 2px solid #3d3d3d;
     color: #c7eeff;
     display: inline-block;
     padding: 1.8rem 2rem 1.6rem 2rem;
     text-decoration: none;
+    transition: 0.3s;
+}
+
+.navbar li a:hover {
+    background: #c7eeff;
+    color: #3d3d3d;
 }
 
 .home {
@@ -216,11 +223,15 @@ li a {
 }
 
 .projectImage {
-    border-radius: 10px;
     margin: auto;
-    background: #3d3d3d;
+    padding: 20px;
+}
+
+.projectImage img {
+    border-radius: 5px;
     height: 350px;
     width: 350px;
+    object-fit: cover;
 }
 
 .projectIcons {
@@ -289,4 +300,11 @@ li a {
 /********** Media **********/
 
 @media screen and (max-width: 830px) {
+    .col-6 {
+        width: 100%;
+    }
+
+    .purpleButton {
+        max-width: 300px;
+    }
 }
