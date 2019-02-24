@@ -215,6 +215,57 @@ li a {
     width: 400px;
 }
 
+.projectIcons {
+    padding: 20px;
+}
+.projectIcons img {
+    height: 75px;
+    padding: 10px;
+}
+
+.projectInformation {
+    text-align: left;
+    text-indent: 30px;
+}
+
+.projectBlueButton,
+.projectPurpleButton {
+    padding: 20px;
+}
+
+.blueButton {
+    background: #c7eeff;
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 150px;
+}
+.blueButton:hover {
+    transform: scale(1.1);
+}
+
+.purpleButton {
+    background: #e6d7ff;
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    transition: 0.3s;
+    width: 150px;
+}
+
+.purpleButton:hover {
+    transform: scale(1.1);
+}
+
 /********** Contact **********/
 
 .contact {
