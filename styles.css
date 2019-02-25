@@ -365,12 +365,97 @@ textarea {
 }
 /********** Media **********/
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 850px) {
     .col-6 {
         width: 100%;
     }
 
+    .flip {
+        flex-direction: column-reverse;
+    }
+
+    .contactForm,
+    .input {
+        text-align: center;
+    }
+    .textarea {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .container {
+        padding: 10px;
+    }
+
+    .flip {
+        flex-direction: column-reverse;
+    }
+
+    .col-6 {
+        width: 100%;
+    }
+
+    .headerContent {
+        padding: 10px;
+    }
+
+    .headerPhrase {
+        font-size: 14px;
+    }
+
+    .skillsIcons img {
+        height: 100px;
+    }
+
+    .projectBlueButton,
+    .projectPurpleButton {
+        padding: 10px 0;
+    }
+    .purpleButton,
+    .blueButton {
+        width: 300px;
+    }
+
+    .projectImage {
+        padding: 10px 0;
+    }
+
+    .projectImage img {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .container {
+        padding: 5px;
+    }
+
+    .headerContent {
+        padding: 5px;
+    }
+    .headerTitle {
+        font-size: 15px;
+    }
+
+    .headerSocial {
+        font-size: 12px;
+    }
+
+    .blueButton,
     .purpleButton {
-        max-width: 300px;
+        width: 200px;
+    }
+
+    .input,
+    .textarea {
+        text-align: center;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .footerSocial {
+        font-size: 12px;
     }
 }
