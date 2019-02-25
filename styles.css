@@ -287,10 +287,20 @@ li a {
 
 /********** Contact **********/
 
+.contactForm {
+    padding-bottom: 25px;
+}
+
 .input {
-    padding: 10px;
+    padding: 12px;
     text-align: right;
 }
+
+.textarea {
+    padding-top: 6px;
+    padding-left: 10px;
+}
+
 input {
     background: #3d3d3d;
     border: 1px solid #3d3d3d;
@@ -299,7 +309,7 @@ input {
     font-family: "EB Garamond", serif;
     font-size: 1.8rem;
     height: 30px;
-    padding-left: 10px;
+    padding-left: 5px;
     width: 300px;
 }
 
@@ -310,9 +320,13 @@ textarea {
     color: #e1e1e1;
     font-family: "EB Garamond", serif;
     font-size: 1.8rem;
-    height: 140px;
+    height: 138px;
     padding-left: 5px;
     width: 300px;
+}
+
+.contactButton {
+    text-align: center;
 }
 .purpleContactButton {
     background: #e6d7ff;
@@ -324,7 +338,7 @@ textarea {
     margin: 10px;
     padding: 10px;
     transition: 0.3s;
-    width: 150px;
+    width: 300px;
 }
 
 /********** Footer **********/
