@@ -1,165 +1,165 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 html {
-    font-size: 62.5%;
+	font-size: 62.5%;
 }
 
 body {
-    background: #e1e1e1;
-    color: #3d3d3d;
-    font-family: "EB Garamond", serif;
-    font-size: 1.8rem;
+	background: #e1e1e1;
+	color: #3d3d3d;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.8rem;
 }
 
 button {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .row {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    align-items: center;
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	align-items: center;
 }
 .row::after {
-    display: block;
-    clear: both;
-    content: "";
+	display: block;
+	clear: both;
+	content: '';
 }
 
 .col-1 {
-    width: 8.33%;
+	width: 8.33%;
 }
 .col-2 {
-    width: 16.66%;
+	width: 16.66%;
 }
 .col-3 {
-    width: 25%;
+	width: 25%;
 }
 .col-4 {
-    width: 33.33%;
+	width: 33.33%;
 }
 .col-5 {
-    width: 41.66%;
+	width: 41.66%;
 }
 .col-6 {
-    width: 50%;
+	width: 50%;
 }
 .col-7 {
-    width: 58.33%;
+	width: 58.33%;
 }
 .col-8 {
-    width: 66.66%;
+	width: 66.66%;
 }
 .col-9 {
-    width: 75%;
+	width: 75%;
 }
 .col-10 {
-    width: 83.33%;
+	width: 83.33%;
 }
 .col-11 {
-    width: 91.66%;
+	width: 91.66%;
 }
 .col-12 {
-    width: 100%;
+	width: 100%;
 }
 
 .container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 0 1.6rem;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 1.6rem;
 }
 
 /********** NavBar **********/
 
 .navbar {
-    background: #3d3d3d;
-    font-size: 18px;
-    padding-bottom: 10px;
+	background: #3d3d3d;
+	font-size: 18px;
+	padding-bottom: 10px;
 }
 
 .navbar-toggle {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    cursor: pointer;
-    color: #c7eeff;
-    font-size: 24px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	cursor: pointer;
+	color: #c7eeff;
+	font-size: 24px;
 }
 .nav {
-    list-style-type: none;
-    display: none;
+	list-style-type: none;
+	display: none;
 }
 
 .nav li {
-    text-align: center;
-    margin: auto 15px;
+	text-align: center;
+	margin: auto 15px;
 }
 
 .active {
-    display: block;
+	display: block;
 }
 
 .link {
-    padding: 10px;
+	padding: 10px;
 }
 
 .link a,
 .home {
-    color: #c7eeff;
-    font-size: 25px;
-    text-decoration: none;
+	color: #c7eeff;
+	font-size: 25px;
+	text-decoration: none;
 }
 
 .home {
-    display: inline-block;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-left: 20px;
+	display: inline-block;
+	font-size: 22px;
+	margin-top: 10px;
+	margin-left: 20px;
 }
 
 /**********  Header **********/
 
 .header {
-    align-items: center;
-    background: #c7eeff;
-    display: flex;
-    height: 50vh;
-    justify-content: center;
-    width: 100%;
+	align-items: center;
+	background: #c7eeff;
+	display: flex;
+	height: 50vh;
+	justify-content: center;
+	width: 100%;
 }
 
 .blueBottomImage img {
-    width: 100%;
+	width: 100%;
 }
 .box {
-    color: #c7eeff;
-    font-family: "Merriweather Sans", sans-serif;
-    justify-content: center;
+	color: #c7eeff;
+	font-family: 'Merriweather Sans', sans-serif;
+	justify-content: center;
 }
 .headerContent {
-    background: #3d3d3d;
-    border-radius: 10px;
-    text-align: center;
-    padding: 50px;
+	background: #3d3d3d;
+	border-radius: 10px;
+	text-align: center;
+	padding: 50px;
 }
 
 .headerPhrase {
-    font-family: "EB Garamond", serif;
-    padding: 10px;
+	font-family: 'EB Garamond', serif;
+	padding: 10px;
 }
 
 .headerSocial {
-    padding: 10px;
+	padding: 10px;
 }
 
 .headerSocial a {
-    color: #c7eeff;
-    padding: 10px;
+	color: #c7eeff;
+	padding: 10px;
 }
 
 /********** About **********/
@@ -167,303 +167,303 @@ button {
 .aboutHeader,
 .projectsHeader,
 .contactHeader {
-    font-family: "Merriweather Sans", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 20px;
-    text-align: center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px;
+	text-align: center;
 }
 
 .aboutProfilePicture {
-    margin: auto;
-    max-width: 233px;
+	margin: auto;
+	max-width: 233px;
 }
 
 .aboutProfilePicture img {
-    border-radius: 50%;
+	border-radius: 50%;
 }
 
 .aboutContent {
-    font-size: 18px;
-    line-height: 2rem;
-    padding: 20px;
-    text-indent: 30px;
+	font-size: 18px;
+	line-height: 2rem;
+	padding: 20px;
+	text-indent: 30px;
 }
 
 .skills {
-    font-size: 20px;
-    font-weight: 700;
-    padding: 20px;
-    text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+	padding: 20px;
+	text-align: center;
 }
 
 .skillsIcons img {
-    height: 150px;
-    padding: 15px;
+	height: 150px;
+	padding: 15px;
 }
 
 /********** Projects **********/
 
 .projectsBackground {
-    background: #c7eeff;
-    text-align: center;
+	background: #c7eeff;
+	text-align: center;
 }
 
 .purpleTopImage img {
-    margin-bottom: -7px;
-    width: 100%;
+	margin-bottom: -7px;
+	width: 100%;
 }
 
 .purpleBottomImage img {
-    margin-top: -5px;
-    width: 100%;
+	margin-top: -5px;
+	width: 100%;
 }
 
 .projects {
-    background: #e6d7ff;
+	background: #e6d7ff;
 }
 .project {
-    padding: 10px;
+	padding: 10px;
 }
 
 .projectTitle {
-    font-family: "Merriweather Sans", sans-serif;
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .projectImage {
-    margin: auto;
-    padding: 20px;
+	margin: auto;
+	padding: 20px;
 }
 
 .projectImage img {
-    border-radius: 5px;
-    height: 350px;
-    width: 350px;
-    object-fit: cover;
+	border-radius: 5px;
+	height: 350px;
+	width: 350px;
+	object-fit: cover;
 }
 
 .projectIcons {
-    padding: 20px;
+	padding: 20px;
 }
 .projectIcons img {
-    height: 75px;
-    padding: 10px;
+	height: 75px;
+	padding: 10px;
 }
 
 .projectInformation {
-    text-align: left;
-    text-indent: 30px;
+	text-align: left;
+	text-indent: 30px;
 }
 
 .projectBlueButton,
 .projectPurpleButton {
-    padding: 20px;
+	padding: 20px;
 }
 
 .blueButton {
-    background: #c7eeff;
-    border: 1px solid #3d3d3d;
-    border-radius: 10px;
-    color: #3d3d3d;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 10px;
-    padding: 10px;
-    transition: 0.3s;
-    width: 150px;
+	background: #c7eeff;
+	border: 1px solid #3d3d3d;
+	border-radius: 10px;
+	color: #3d3d3d;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	transition: 0.3s;
+	width: 150px;
 }
 .blueButton:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 .purpleButton {
-    background: #e6d7ff;
-    border: 1px solid #3d3d3d;
-    border-radius: 10px;
-    color: #3d3d3d;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 10px;
-    padding: 10px;
-    transition: 0.3s;
-    width: 150px;
+	background: #e6d7ff;
+	border: 1px solid #3d3d3d;
+	border-radius: 10px;
+	color: #3d3d3d;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	transition: 0.3s;
+	width: 150px;
 }
 
 .purpleButton:hover {
-    transform: scale(1.1);
+	transform: scale(1.1);
 }
 
 /********** Contact **********/
 
 .contactForm {
-    padding-bottom: 25px;
+	padding-bottom: 25px;
 }
 
 .input {
-    padding: 12px;
-    text-align: right;
+	padding: 12px;
+	text-align: right;
 }
 
 .textarea {
-    padding-top: 6px;
-    padding-left: 10px;
+	padding-top: 6px;
+	padding-left: 10px;
 }
 
 input {
-    background: #3d3d3d;
-    border: 1px solid #3d3d3d;
-    border-radius: 2px;
-    color: #e1e1e1;
-    font-family: "EB Garamond", serif;
-    font-size: 1.8rem;
-    height: 30px;
-    padding-left: 5px;
-    width: 300px;
+	background: #3d3d3d;
+	border: 1px solid #3d3d3d;
+	border-radius: 2px;
+	color: #e1e1e1;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.8rem;
+	height: 30px;
+	padding-left: 5px;
+	width: 300px;
 }
 
 textarea {
-    background: #3d3d3d;
-    border: 1px solid #3d3d3d;
-    border-radius: 2px;
-    color: #e1e1e1;
-    font-family: "EB Garamond", serif;
-    font-size: 1.8rem;
-    height: 138px;
-    padding-left: 5px;
-    width: 300px;
+	background: #3d3d3d;
+	border: 1px solid #3d3d3d;
+	border-radius: 2px;
+	color: #e1e1e1;
+	font-family: 'EB Garamond', serif;
+	font-size: 1.8rem;
+	height: 138px;
+	padding-left: 5px;
+	width: 300px;
 }
 
 .contactButton {
-    text-align: center;
+	text-align: center;
 }
 .purpleContactButton {
-    background: #e6d7ff;
-    border: 1px solid #3d3d3d;
-    border-radius: 10px;
-    color: #3d3d3d;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 10px;
-    padding: 10px;
-    transition: 0.3s;
-    width: 300px;
+	background: #e6d7ff;
+	border: 1px solid #3d3d3d;
+	border-radius: 10px;
+	color: #3d3d3d;
+	font-size: 15px;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	transition: 0.3s;
+	width: 300px;
 }
 
 /********** Footer **********/
 
 .footer {
-    background: #3d3d3d;
-    color: #e1e1e1;
-    padding: 25px;
-    text-align: center;
+	background: #3d3d3d;
+	color: #e1e1e1;
+	padding: 25px;
+	text-align: center;
 }
 
 .footerContent {
-    padding: 15px;
+	padding: 15px;
 }
 
 .footerImages img {
-    height: 50px;
-    margin: 10px;
+	height: 50px;
+	margin: 10px;
 }
 
 .footerSocial a {
-    color: #e1e1e1;
-    padding: 10px;
+	color: #e1e1e1;
+	padding: 10px;
 }
 /********** Media **********/
 
 @media screen and (max-width: 850px) {
-    .col-6 {
-        width: 100%;
-    }
+	.col-6 {
+		width: 100%;
+	}
 
-    .flip {
-        flex-direction: column-reverse;
-    }
+	.flip {
+		flex-direction: column-reverse;
+	}
 
-    .contactForm,
-    .input {
-        text-align: center;
-    }
-    .textarea {
-        padding-left: 0px;
-    }
+	.contactForm,
+	.input {
+		text-align: center;
+	}
+	.textarea {
+		padding-left: 0px;
+	}
 }
 
 @media screen and (max-width: 450px) {
-    .container {
-        padding: 10px;
-    }
+	.container {
+		padding: 10px;
+	}
 
-    .flip {
-        flex-direction: column-reverse;
-    }
+	.flip {
+		flex-direction: column-reverse;
+	}
 
-    .col-6 {
-        width: 100%;
-    }
+	.col-6 {
+		width: 100%;
+	}
 
-    .headerContent {
-        padding: 10px;
-    }
+	.headerContent {
+		padding: 10px;
+	}
 
-    .headerPhrase {
-        font-size: 14px;
-    }
+	.headerPhrase {
+		font-size: 14px;
+	}
 
-    .skillsIcons img {
-        height: 100px;
-    }
+	.skillsIcons img {
+		height: 100px;
+	}
 
-    .projectBlueButton,
-    .projectPurpleButton {
-        padding: 10px 0;
-    }
-    .purpleButton,
-    .blueButton {
-        width: 300px;
-    }
+	.projectBlueButton,
+	.projectPurpleButton {
+		padding: 10px 0;
+	}
+	.purpleButton,
+	.blueButton {
+		width: 300px;
+	}
 
-    .projectImage {
-        padding: 10px 0;
-    }
+	.projectImage {
+		padding: 10px 0;
+	}
 
-    .projectImage img {
-        height: 250px;
-        width: 250px;
-    }
+	.projectImage img {
+		height: 250px;
+		width: 250px;
+	}
 }
 
 @media screen and (max-width: 350px) {
-    .container {
-        padding: 5px;
-    }
+	.container {
+		padding: 5px;
+	}
 
-    .headerContent {
-        padding: 5px;
-    }
-    .headerTitle {
-        font-size: 15px;
-    }
+	.headerContent {
+		padding: 5px;
+	}
+	.headerTitle {
+		font-size: 15px;
+	}
 
-    .headerSocial {
-        font-size: 12px;
-    }
+	.headerSocial {
+		font-size: 12px;
+	}
 
-    .blueButton,
-    .purpleButton {
-        width: 200px;
-    }
+	.blueButton,
+	.purpleButton {
+		width: 200px;
+	}
 
-    .input,
-    .textarea {
-        text-align: center;
-        padding: 10px;
-        width: 200px;
-    }
+	.input,
+	.textarea {
+		text-align: center;
+		padding: 10px;
+		width: 200px;
+	}
 
-    .footerSocial {
-        font-size: 12px;
-    }
+	.footerSocial {
+		font-size: 12px;
+	}
 }
