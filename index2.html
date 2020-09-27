@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1" name="viewport" />
+		<link
+			href="https://fonts.googleapis.com/css?family=EB+Garamond|Merriweather+Sans:700"
+			rel="stylesheet"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+			integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+			crossorigin="anonymous"
+		/>
+		<link rel="styleSheet" href="./styles.css" />
+		<title>Kenten Roth</title>
+	</head>
+
+	<body>
+		<div class="pageContent">
+			<div class="navbar" id="navbar">
+				<span class="navbar-toggle" id="js-navbar-toggle">
+					<i class="fas fa-bars"></i>
+				</span>
+				<a class="home" href="#home">Home</a>
+
+				<ul class="nav" id="js-menu">
+					<li class="link"><a href="#about">About</a></li>
+					<li class="link"><a href="#projects">Projects</a></li>
+					<li class="link"><a href="#contact">Contact</a></li>
+					<li class="link">
+						<a href="https://github.com/KentenRoth">GitHub</a>
+					</li>
+					<li class="link">
+						<a href="https://medium.com/@KentenRoth">Blog</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="header" id="home">
+				<div class="container">
+					<div class="box">
+						<div class="headerContent">
+							<div class="headerTitle">
+								<h1>I'm Kenten Roth</h1>
+							</div>
+							<div class="headerPhrase">
+								<h2>Mechanic by day Coder by night</h2>
+							</div>
+							<div class="headerSocial">
+								<a href="https://twitter.com/KentenRoth"
+									><i class="fab fa-twitter fa-2x"></i
+								></a>
+								<a href="https://www.instagram.com/kentenroth/"
+									><i class="fab fa-instagram fa-2x"></i
+								></a>
+								<a
+									href="https://www.linkedin.com/in/kentenroth/"
+									><i class="fab fa-linkedin-in fa-2x"></i
+								></a>
+								<a href="https://github.com/KentenRoth"
+									><i class="fab fa-github fa-2x"></i
+								></a>
+								<a href="https://medium.com/@KentenRoth"
+									><i class="fab fa-medium fa-2x"></i
+								></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="blueBottomImage">
+				<img
+					alt="Blue Wave Bottom"
+					src="./images/bottomWaveBlueiMac.svg"
+				/>
+			</div>
+			<div class="about" id="about">
+				<div class="container">
+					<div class="aboutHeader">
+						<h1>About Me</h1>
+					</div>
+					<div class="aboutProfilePicture">
+						<img
+							alt="profile picture"
+							src="./images/profilepic.jpg"
+						/>
+					</div>
+					<div class="aboutContent">
+						<p>
+							My Name is Kenten Roth, and I am currently an
+							automotive technician. I have spent the last couple
+							years teaching myself how to code on my nights and
+							weekends. I have always enjoyed coding, and decided
+							that I want to make a career change. My coding focus
+							has been on the front-end, but I also want to move
+							into a full-stack role in the future. I have chosen
+							HTML, CSS, JavaScript, and React as my main
+							languages, but also learning some MongoDB to help
+							with my current projects.
+						</p>
+					</div>
+					<div class="skills" id="skills">
+						<div class="skillsIcons">
+							<img alt="html logo" src="./images/html.svg" />
+							<img alt="css logo" src="./images/css.svg" />
+							<img
+								alt="javascript logo"
+								src="./images/javascript.svg"
+							/>
+							<img alt="react logo" src="./images/react.svg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="purpleTopImage">
+				<img
+					alt="light purple wave top"
+					src="./images/topWavePurpleiMac.svg"
+				/>
+			</div>
+			<div class="projectsBackground">
+				<div class="projects" id="projects">
+					<div class="container">
+						<div class="projectsHeader">
+							<h1>Projects</h1>
+						</div>
+						<div class="project">
+							<div class="row">
+								<div class="col-6">
+									<div class="projectTitle">
+										<h1>Monopoly Finance</h1>
+										<p>Current Project</p>
+									</div>
+
+									<div class="projectImage">
+										<img
+											alt="Screenshot of Garden App"
+											src="./images/monopolyFinance.png"
+										/>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="projectIcons">
+										<img src="./images/html.svg" />
+										<img src="./images/css.svg" />
+										<img src="./images/javascript.svg" />
+										<img src="./images/react.svg" />
+										<img src="./images/mongodb.svg" />
+									</div>
+									<div class="projectInformation">
+										<p>
+											I am currently working on this
+											project, and it is not yet
+											completed. This project will allow
+											you to play Monopoly and not have to
+											worry about the financial aspect of
+											the game. The banker will no longer
+											be able to sneak a few extra dollars
+											when you're not looking. I also need
+											to implement something like
+											Socket.io that way all players are
+											kept up to date on the financials
+											without having to manually reload.
+											<br />
+											<br />
+											This project will be ran on free
+											heroku server. Once it goes live it
+											may take a moment for the server to
+											spin up and start running.
+										</p>
+									</div>
+									<div class="projectBlueButton">
+										<!-- <button
+											onclick="location.href='//gentle-bastion-76363.herokuapp.com/'"
+											class="blueButton"
+										>
+											Website
+										</button> -->
+										<button
+											onclick="location.href='//github.com/KentenRoth/Game-Night'"
+											class="blueButton"
+										>
+											Github
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="purpleBottomImage">
+					<img
+						alt="light purple wave bottom"
+						src="./images/bottomWavePurpleiMac.svg"
+					/>
+				</div>
+				<div class="container">
+					<div class="project">
+						<div class="row flip">
+							<div class="col-6">
+								<div class="projectIcons">
+									<img src="./images/html.svg" />
+									<img src="./images/css.svg" />
+									<img src="./images/javascript.svg" />
+									<img src="./images/mongodb.svg" />
+								</div>
+								<div class="projectInformation">
+									<p>
+										The Task Manager is a place that will
+										allow you to keep tasks for different
+										projects seperated and help keep you on
+										track of what else is yet to be done.
+										The main focus of this project is help
+										get a better grasp on authentication,
+										and how login/logout functions worked. I
+										also, wanted to use this project to help
+										with my understanding of MongoDB. I had
+										a lot of fun building this application,
+										and ran into many obsticles with
+										authentication.
+										<br />
+										<br />
+										This project is ran on a free heroku
+										account. It may take a minute to spin
+										up.
+									</p>
+								</div>
+								<div class="projectPurpleButton">
+									<button
+										onclick="location.href='//kentenroth.github.io/Bug-Tracker/login'"
+										class="purpleButton"
+									>
+										Website
+									</button>
+									<button
+										onclick="location.href='//github.com/KentenRoth/Bug-Tracker'"
+										class="purpleButton"
+									>
+										Github
+									</button>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="projectTitle">
+									<h1>Task Manager</h1>
+								</div>
+
+								<div class="projectImage">
+									<img
+										alt="Screenshot of Callenge Site"
+										src="./images/taskManager.png"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="purpleTopImage">
+					<img
+						alt="light purple wave top"
+						src="./images/topWavePurpleiMac.svg"
+					/>
+				</div>
+				<div class="projects">
+					<div class="container">
+						<div class="project">
+							<div class="row">
+								<div class="col-6">
+									<div class="projectTitle">
+										<h1>Car Appointment</h1>
+									</div>
+
+									<div class="projectImage">
+										<img
+											alt="Screenshot of Garden App"
+											src="./images/carApp.png"
+										/>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="projectIcons">
+										<img src="./images/html.svg" />
+										<img src="./images/css.svg" />
+										<img src="./images/javascript.svg" />
+										<img src="./images/react.svg" />
+										<img src="./images/mongodb.svg" />
+									</div>
+									<div class="projectInformation">
+										<p>
+											The Car Appointment app is my most
+											recent app. The front-end is built
+											with React, and I used MongoDB for
+											the backend. I created this project
+											as a way to relieve some issues at
+											work. As of now, we don't have the
+											best system to show the difference
+											between jobs that have an
+											appointment and ones that walk in.
+											There are things I plan on adding to
+											this project, like authentication
+											and implementing socket.io.
+											<br />
+											<br />
+											This project is ran on a free heroku
+											account. It may take a minute to
+											spin up.
+										</p>
+									</div>
+									<div class="projectBlueButton">
+										<button
+											onclick="location.href='//gentle-bastion-76363.herokuapp.com/'"
+											class="blueButton"
+										>
+											Website
+										</button>
+										<button
+											onclick="location.href='//github.com/KentenRoth/Work-Project'"
+											class="blueButton"
+										>
+											Github
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="purpleBottomImage">
+					<img
+						alt="light purple wave bottom"
+						src="./images/bottomWavePurpleiMac.svg"
+					/>
+				</div>
+				<div class="container">
+					<div class="project">
+						<div class="row flip">
+							<div class="col-6">
+								<div class="projectIcons">
+									<img src="./images/html.svg" />
+									<img src="./images/css.svg" />
+									<img src="./images/javascript.svg" />
+								</div>
+								<div class="projectInformation">
+									<p>
+										This website was part of a challenge
+										that I did for a course I purchased on
+										Udemy. All of the assets had been
+										provided to me along with the overall
+										design. The challenge was to build the
+										site how the 'client' wanted the site to
+										be made. This challenge was a way to
+										mock having a client that would give you
+										the pdf of a website and then ask for it
+										to be completed within a specific time
+										frame.
+									</p>
+								</div>
+								<div class="projectPurpleButton">
+									<button
+										onclick="location.href='//vigilant-hamilton-01427e.netlify.com'"
+										class="purpleButton"
+									>
+										Website
+									</button>
+									<button
+										onclick="location.href='//github.com/KentenRoth/challenge-site'"
+										class="purpleButton"
+									>
+										Github
+									</button>
+								</div>
+							</div>
+							<div class="col-6">
+								<div class="projectTitle">
+									<h1>Challenge Website</h1>
+								</div>
+
+								<div class="projectImage">
+									<img
+										alt="Screenshot of Callenge Site"
+										src="./images/challengeSite.png"
+									/>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="purpleTopImage">
+					<img
+						alt="light purple wave top"
+						src="./images/topWavePurpleiMac.svg"
+					/>
+				</div>
+				<div class="projects">
+					<div class="container">
+						<div class="project">
+							<div class="row">
+								<div class="col-6">
+									<div class="projectTitle">
+										<h1>Photo Site</h1>
+									</div>
+
+									<div class="projectImage">
+										<img
+											alt="Screenshot of the Photo Site"
+											src="./images/photoSite.png"
+										/>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="projectIcons">
+										<img src="./images/html.svg" />
+										<img src="./images/css.svg" />
+										<img src="./images/javascript.svg" />
+										<img src="./images//react.svg" />
+									</div>
+									<div class="projectInformation">
+										<p>
+											I built this website as a mock-up of
+											a photography website. I wanted to
+											take some of the stuff I learned
+											from React courses and implement it
+											into something different. This
+											website uses the Unsplash API to
+											bring in images that are displayed
+											as thumbnails. If you select a
+											thumbnail, it will take you to the
+											image on the Unsplash website. I ran
+											into several challenges with
+											building this website but was able
+											to work my way through them.
+										</p>
+									</div>
+									<div class="projectBlueButton">
+										<button
+											onclick="location.href='https://kentenroth.github.io/Photo-site/'"
+											class="blueButton"
+										>
+											Website
+										</button>
+										<button
+											onclick="location.href='//github.com/KentenRoth/Photo-site'"
+											class="blueButton"
+										>
+											Github
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="purpleBottomImage">
+				<img
+					alt="light purple wave bottom"
+					src="./images/bottomWavePurpleiMac.svg"
+				/>
+			</div>
+
+			<div class="contact" id="contact">
+				<div class="container">
+					<div class="contactHeader">
+						<h1>Contact Me</h1>
+					</div>
+					<div class="contactForm">
+						<form
+							method="POST"
+							action="https://formspree.io/kentenroth@gmail.com"
+						>
+							<div class="row">
+								<div class="col-6">
+									<div class="input">
+										<input
+											type="email"
+											name="email"
+											placeholder="Your email"
+										/>
+									</div>
+									<div class="input">
+										<input
+											type="text"
+											name="name"
+											placeholder="Your Name"
+										/>
+									</div>
+									<div class="input">
+										<input
+											type="subject"
+											name="subject"
+											placeholder="Subject of Email"
+										/>
+									</div>
+								</div>
+								<div class="col-6">
+									<div class="textarea">
+										<textarea
+											name="message"
+											placeholder="Your Message"
+										></textarea>
+									</div>
+								</div>
+							</div>
+
+							<div class="contactButton">
+								<button
+									class="purpleContactButton"
+									type="submit"
+								>
+									Send Message
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="footer">
+				<div class="container">
+					<div class="footerContent">
+						<p>This site was built with:</p>
+					</div>
+					<div class="footerImages">
+						<img src="./images/html.svg" />
+						<img src="./images/css.svg" />
+						<img src="./images/javascript.svg" />
+					</div>
+					<div class="footerSocial">
+						<a href="https://twitter.com/KentenRoth"
+							><i class="fab fa-twitter fa-2x"></i
+						></a>
+						<a href="https://www.instagram.com/kentenroth/"
+							><i class="fab fa-instagram fa-2x"></i
+						></a>
+						<a href="https://www.linkedin.com/in/kentenroth/"
+							><i class="fab fa-linkedin-in fa-2x"></i
+						></a>
+						<a href="https://github.com/KentenRoth"
+							><i class="fab fa-github fa-2x"></i
+						></a>
+						<a href="https://medium.com/@KentenRoth"
+							><i class="fab fa-medium fa-2x"></i
+						></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			let mainNav = document.getElementById('js-menu');
+			let navBarToggle = document.getElementById('js-navbar-toggle');
+
+			navBarToggle.addEventListener('click', function () {
+				mainNav.classList.toggle('active');
+			});
+		</script>
+	</body>
+</html>
